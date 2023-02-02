@@ -771,6 +771,18 @@ else:
     print("Value is True")
 ```
 
+### match-case
+
+```python
+match status:
+    case 404:
+        return "Not found"
+    case 418:
+        return "I'm a teapot"
+    case _:
+        return "Something else"
+```
+
 Python 循环
 --------
 
